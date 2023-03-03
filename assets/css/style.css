@@ -16,6 +16,24 @@
   text-align: justify;
 }
 
+.hero-section {
+  /* background-color: #f2f2f2; Change the background color to your preference */
+  padding: 50px; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.hero-section p {
+  font-size: 30px; /* Adjust the font size as needed */
+  color: rgb(20, 211, 20);
+  font-family: 'Courier New', Courier, monospace; /* Change the font family to your preference */
+}
+
+.hero-section span {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: 800; /* Adjust the font weight as needed */
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
