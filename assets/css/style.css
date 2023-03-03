@@ -8,6 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.orange {
+  color: #ff4500;
+}
+
+.justified {
+  text-align: justify;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -122,11 +130,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #fffee8;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #fffee8;
+  /* background: #fffee8; */
   color: black;
 }
 
@@ -694,7 +703,8 @@ section {
 .services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
-  background: #fefefe;
+  background: #333333;
+  color: #fffee8;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   border-radius: 18px;
   border-bottom: 5px solid #fff;
@@ -724,7 +734,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #282828;
+  color: #fffee8;
   transition: ease-in-out 0.3s;
 }
 
@@ -844,7 +854,6 @@ section {
   border-right: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
   overflow: hidden;
-  background: #fff;
   height: 140px;
 }
 
@@ -1324,7 +1333,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1356,7 +1364,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {

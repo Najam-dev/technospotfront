@@ -80,16 +80,16 @@
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
+  let logoImage = document.getElementById("logoimg");
   let selectHeader = select("#header");
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add("header-scrolled");
-        console.log(document.getElementById("logoimg").src);
-        document.getElementById("logoimg").src = "../img/favicon.png";
+        // logoImage.src = "../img/logoWhite.png";
+        // document.getElementById("myImg").src = "hackanm.gif";
       } else {
         selectHeader.classList.remove("header-scrolled");
-        document.getElementById("logoimg").src = "../img/logoWhite.png";
       }
     };
     window.addEventListener("load", headerScrolled);
