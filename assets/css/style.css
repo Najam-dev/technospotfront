@@ -9,11 +9,27 @@
 # General
 --------------------------------------------------------------*/
 .orange {
-  color: #ff4500;
+  color: #ff4500 !important;
 }
 
 .justified {
   text-align: justify;
+}
+
+.justified {
+  text-align: left;
+}
+
+.height-max{
+  max-height: 100px;
+}
+
+.del-text{
+  font-weight: bold;
+}
+
+.courses-title{
+  font-size: 30px !important;
 }
 
 .hero-section {
@@ -1145,9 +1161,9 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: #8a8888;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .pricing .box ul {
