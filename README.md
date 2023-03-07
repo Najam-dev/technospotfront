@@ -7,4 +7,3 @@ plan:
     message from our executives
     pics of office
     portfolio
-    courses section 
