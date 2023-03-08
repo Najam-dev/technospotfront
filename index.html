@@ -12,6 +12,17 @@
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
+    <!-- Animate css animations -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+  />
+
+  
+
+  <!-- wow animation  -->
+  <!-- <link rel="stylesheet" href="/assets/animate.css-master/animate.min.css"> -->
+
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -131,9 +142,9 @@
             <h1>Techno Spot</h1>
             <h2>Making Success Easier</h2>
             <h2>
-              <div>
+              <div class="wow heartBeat">
                 <!-- <b>{<b>collaboration</b>} ? <span> "growth" : "no growth"</span></b> -->
-                <b>connect, collaborate, grow.</b>
+                <b>Connect, Collaborate, Grow.</b>
               </div>
             </h2>
             
@@ -153,56 +164,53 @@
         <div class="container">
           <div class="section-title">
             <h2>About Us</h2>
-            <p>
-              Techno Spot is a versatile technology company that offers a diverse
-              range of services, including
-              <span class="orange">
-                Game Development & 3D Model Designing, Full Stack Web
-                Development, Data Science, Interior Designing and Android App
-                Development </span
-              >. We are a team of passionate and skilled professionals who are
-              dedicated to providing innovative and creative solutions to our
-              clients.
-            </p>
+            <div class="">
+              <p>
+                Techno Spot is a versatile technology company that offers a diverse
+                range of services, including
+                <span class="orange">
+                  Game Development & 3D Model Designing, Full Stack Web
+                  Development, Data Science, Interior Designing and Android App
+                  Development </span
+                >. We are a team of passionate and skilled professionals who are
+                dedicated to providing innovative and creative solutions to our
+                clients.
+              </p>
+            </div>
           </div>
 
           <div class="row content">
             <div class="col-lg-6">
               <p></p>
-              <ul>
-                <li><i class="ri-check-double-line"></i>Career Counseling</li>
-                <li>
-                  <i class="ri-check-double-line"></i>Internship Opportunities
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i>Job Placement Services
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i>Friendly Environment
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i>Soft Skills Training
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i>Professional Development Training
-                </li>
+              <div class="wow fadeInLeft">
+                <ul>
+                  <li><i class="ri-check-double-line"></i>Career Counseling</li>
+                  <li>
+                    <i class="ri-check-double-line"></i>Internship Opportunities
+                  </li>
+                  <li>
+                    <i class="ri-check-double-line"></i>Job Placement Services
+                  </li>
+                  <li>
+                    <i class="ri-check-double-line"></i>Friendly Environment
+                  </li>
+                  <li>
+                    <i class="ri-check-double-line"></i>Soft Skills Training
+                  </li>
+                  <li>
+                    <i class="ri-check-double-line"></i>Professional Development Training
+                  </li>
 
-                
-              </ul>
+                  
+                </ul>
+              </div>
             </div>
             <div style="text-align: justify" class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                Techno Spot is a multi-faceted technology company that offers a
-                wide range of services. We pride ourselves on our ability to
-                create innovative and creative solutions that meet the specific
-                needs of our clients.<br />
-                Techno Spot is a cutting-edge educational institution that
-                offers a wide range of courses to help students acquire
-                practical skills. Our courses are designed to help students
-                learn the latest technologies and tools in a supportive and
-                collaborative learning environment.
+              <p class="wow fadeInRight">
+                Techno Spot provides a friendly learning environment with industrial skilled trainers who focus on task-based teaching. Students are encouraged to learn by doing and work on real-world projects to gain practical skills. The trainers use their industry experience to guide and mentor students, helping them to build a strong foundation in the latest technologies and prepare for successful careers in tech.
               </p>
               <a href="#pricing" class="btn-learn-more">Courses</a>
+              <a href="#services" class="btn-learn-more" style="margin-left: 20px;">Services</a>
             </div>
           </div>
         </div>
@@ -225,7 +233,7 @@
 
           <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="icon-box">
+              <div class="icon-box wow fadeInDown">
                 <div class="icon"><i class="bi bi-unity"></i></div>
                 <h4><a href="">Game Development</a></h4>
                 <p class="justified">
@@ -242,7 +250,7 @@
             <div
               class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
             >
-              <div class="icon-box">
+              <div class="icon-box wow fadeInDown">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
                 <h4><a href="">Data Science</a></h4>
                 <p class="justified">
@@ -258,7 +266,7 @@
             <div
               class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
             >
-              <div class="icon-box">
+              <div class="icon-box  wow fadeInDown">
                 <div class="icon"><i class="bx bx-file"></i></div>
                 <h4><a href="">Web Development</a></h4>
                 <p class="justified">
@@ -272,7 +280,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
+              <div class="icon-box wow fadeInUp">
                 <div class="icon"><i class="bx bx-world"></i></div>
                 <h4><a href="">Interior Designing</a></h4>
                 <p class="justified">
@@ -287,7 +295,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
+              <div class="icon-box  wow fadeInUp">
                 <div class="icon"><i class="bx bx-slideshow"></i></div>
                 <h4><a href="">Mobile App Development</a></h4>
                 <p class="justified">
@@ -301,7 +309,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
+              <div class="icon-box wow fadeInUp">
                 <div class="icon"><i class="bx bx-arch"></i></div>
                 <h4><a href="">Quran Class</a></h4>
                 <p class="justified">
@@ -388,7 +396,7 @@
 
       <!-- ======= Clients Section ======= -->
       <section id="clients" class="clients">
-        <div class="container">
+        <div class="container wow slideInUp">
           <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
             <div class="col-lg-3 col-md-4 col-xs-6">
               <div class="client-logo">
@@ -490,7 +498,7 @@
                 data-purecounter-start="0"
                 data-purecounter-end="30"
                 data-purecounter-duration="1"
-                class="purecounter"
+                class="purecounter orange"
               ></span>
               <p>Clients</p>
             </div>
@@ -500,7 +508,7 @@
                 data-purecounter-start="0"
                 data-purecounter-end="50"
                 data-purecounter-duration="1"
-                class="purecounter"
+                class="purecounter orange"
               ></span>
               <p>Projects</p>
             </div>
@@ -510,7 +518,7 @@
                 data-purecounter-start="0"
                 data-purecounter-end="1463"
                 data-purecounter-duration="1"
-                class="purecounter"
+                class="purecounter orange"
               ></span>
               <p>Hours Of Support</p>
             </div>
@@ -520,7 +528,7 @@
                 data-purecounter-start="0"
                 data-purecounter-end="10"
                 data-purecounter-duration="1"
-                class="purecounter"
+                class="purecounter orange"
               ></span>
               <p>Hard Workers</p>
             </div>
@@ -796,9 +804,10 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="discount-strip">25% off</div>
                 <h3 class="courses-title">Flutter</h3>
-                <h4><sup>Rs.</sup>10,000<span> / month</span></h4>
-                <b>Price: <del>15,000</del></b>
+                <h4><sup>Rs.</sup>7,500<span> / month</span></h4>
+                <b>Price: <del>10,000</del></b>
                 <ul>
                   <li><i class="ri-check-double-line orange"></i><b>Installments Available</b></li>
                   <li><i class="ri-check-double-line orange"></i>Basic to advance level</li>
@@ -817,9 +826,10 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="coming-strip">Coming Soon</div>
                 <h3 class="courses-title">Graphics Design</h3>
-                <h4><sup>Rs.</sup>5,000<span> / month</span></h4>
-                <b>Price: <del>7,500</del></b>
+                <h4><sup>Rs.</sup>3,750<span> / month</span></h4>
+                <b>Price: <del>5,000</del></b>
                 <ul>
                   <li><i class="ri-check-double-line orange"></i><b>Installments Available</b></li>
                   <li><i class="ri-check-double-line orange"></i>Basic to advance level</li>
@@ -838,6 +848,7 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="coming-strip">Coming Soon</div>
                 <h3 class="courses-title">UI/UX design</h3>
                 <h4><sup>Rs.</sup>5,000<span> / month</span></h4>
                 <b>Price: <del>7,500</del></b>
@@ -863,6 +874,7 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="discount-strip">25% off</div>
                 <h3 class="courses-title">Mobile Game Dev.</h3>
                 <h4><sup>Rs.</sup>15,000<span> / month</span></h4>
                 <b>Price: <del>25,000</del></b>
@@ -884,6 +896,7 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="discount-strip">25% off</div>
                 <h3 class="courses-title">Data Science</h3>
                 <h4><sup>Rs.</sup>10,000<span> / month</span></h4>
                 <b>Price: <del>15,000</del></b>
@@ -905,6 +918,7 @@
 
             <div class="col-lg-4 col-md-6">
               <div class="box">
+                <div class="discount-strip">25% off</div>
                 <h3 class="courses-title">Spoken English</h3>
                 <h4><sup>Rs.</sup>5,000<span> / month</span></h4>
                 <b>Price: <del>7,000</del></b>
@@ -1206,12 +1220,23 @@
     </footer>
     <!-- End Footer -->
 
-    <div id="preloader"></div>
+    <div id="preloader">
+      <!-- <div class="loader-logo"></div> -->
+    </div>
     <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+      >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+    
+    <!-- <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      >
+      <i class="bi bi-arrow-up-short"></i>
+    </a> -->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -1223,5 +1248,13 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- wow animation script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js
+    "></script>
+    <script src="/assets/WOW-master/dist/wow.js"></script>
+    <script>  
+      new WOW().init();
+    </script>
   </body>
 </html>
